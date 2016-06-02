@@ -7,7 +7,7 @@ import com.app.friendsinnaighorhood.grapgh.Index;
  */
 public class Util {
 
-    public static Index getIndexRowCol(int item, int maxRowSize){
+    public static Index getRowColFromIndex(int item, int maxRowSize){
         Index indexRC = new Index();
         indexRC.setI(item/maxRowSize);
         indexRC.setJ(item%maxRowSize);
